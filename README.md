@@ -1,2 +1,3 @@
 # DogHeartworm
-datasets and scripts for the dog heartworm project
+
+Datasets and R scripts used in the dog heartworm project
