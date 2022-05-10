@@ -1,5 +1,8 @@
 # Dog Heartworm
 
+## Manuscript Draft ##
+https://docs.google.com/document/d/1mBBMrbIyOUMV21rdmh0MmGNLvhc1uEgw8Von9YLKAlc/edit
+
 ### Currently working on ###
 Q2: GBM identifying which climate / land cover predictors are important for each species
 
