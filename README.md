@@ -13,6 +13,7 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 ## Next to do ##
 
 - figure out why model is R squared so low? is model that bad? 
+- one-hot encoding on any factors (since XGboost can't handle factor data. Need to convert to dummy variables)
 - Caroline's suggestion of calculating confidence intervals for the feature importance by running model 100 times. 
 -  Goal = to identify what feature importance cutoffs to use when determining if variable is biologically "important"
 - look into metrics used by Nick Skaff  & Van Buren: change in Gini impurity criterion, 'gain' (Van Buren) & overall predictor error
