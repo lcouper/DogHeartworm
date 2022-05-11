@@ -12,10 +12,10 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 
 ## Next to do ##
 
-- one-hot encoding on any factors (since XGboost can't handle factor data. Need to convert to dummy variables)
-- figure out why model is R squared so low
-- look into metrics used by Nick Skaff  & Van Buren: change in Gini impurity criterion, 'gain' (Van Buren) & overall predictor error
-- how to calculate marginal effects / partial dependence plots (new package: https://github.com/bgreenwell/pdp)
-- How to calculate prediction error? 
+- Check if one-hot encoding actually working
+- Look into model evaluation metrics e.g., change in Gini impurity criterion, 'gain', overall predictor error
+- Figure out how to calculate OOB predictor error 
+- Figure out how to calculate marginal effects / partial dependence plots (new package: https://github.com/bgreenwell/pdp)
+
 
 
