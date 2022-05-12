@@ -13,6 +13,7 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 
 ## Next to do ##
 
+- Check if Bayesian optimizaiton working
 - Check if one-hot encoding actually working
 - Look into model evaluation metrics e.g., change in Gini impurity criterion, 'gain', overall predictor error
 - Figure out how to calculate OOB predictor error 
