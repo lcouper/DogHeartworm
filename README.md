@@ -16,6 +16,7 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 - Bayesian optimizaiton does seem to be working. 
 -   Need to increase nrounds and run in Sherlock (can do after CG responds)
 - Check if one-hot encoding actually working
+- Log transform really skewed variables to reduce influence of extreme outliers on model performance
 - Figure out how to do bootstrapping (After CG responds)
 - Figure out how to create partial dependence plots 
 
