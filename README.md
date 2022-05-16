@@ -11,13 +11,13 @@ Methods workflow: https://docs.google.com/document/d/1BogzO9ykmIimr-thRqLZEKozIp
 
 Q2: GBM identifying which climate / land cover predictors are important for each species
 
-## Next to do ##
+## Just done / Next to do ##
 
-- Check if Bayesian optimizaiton working
+- Bayesian optimizaiton does seem to be working. 
+-   Need to increase nrounds and run in Sherlock (can do after CG responds)
 - Check if one-hot encoding actually working
-- Look into model evaluation metrics e.g., change in Gini impurity criterion, 'gain', overall predictor error
-- Figure out how to calculate OOB predictor error 
-- Figure out how to calculate marginal effects / partial dependence plots (new package: https://github.com/bgreenwell/pdp)
+- Figure out how to do bootstrapping (After CG responds)
+- Figure out how to create partial dependence plots 
 
 
 
