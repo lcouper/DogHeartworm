@@ -13,13 +13,15 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 
 ## Just done / Next to do ##
 
-- Bayesian optimizaiton does seem to be working. 
--   Need to increase nrounds and run in Sherlock (can do after CG responds)
 - Check if one-hot encoding actually working
 -   *it does appear to be working but now having issue with sparse rows. Need to identify /remove these! *
+-   - Bayesian optimizaiton does seem to be working. 
+-   Need to increase nrounds and run in Sherlock (can do after CG responds)
 - Log transform really skewed variables to reduce influence of extreme outliers on model performance
 - Figure out how to do bootstrapping (After CG responds)
 - Figure out how to create partial dependence plots 
+- Figure out: what is the difference between marginal effects and partial dependence?
+- Figure out: is "out of sample" prediction error the same as test error? (i.e., from when applying model from training data to test data)
 
 
 
