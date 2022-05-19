@@ -11,15 +11,17 @@ Methods workflow: https://docs.google.com/document/d/1BogzO9ykmIimr-thRqLZEKozIp
 
 Q2: GBM identifying which climate / land cover predictors are important for each species
 
-## Just done / Next to do ##
+## Just done ##
 
 - One-hot encoding now working
-- Bayesian optimizaiton now working -- 
--   Need to increase nrounds and run in Sherlock (can do after CG responds)
+- Bayesian optimizaiton now working 
+
+## Next to do ##
+
 - Log transform really skewed variables to reduce influence of extreme outliers on model performance? 
-- Figure out how to do bootstrapping (After CG responds)
-
-
+- Increase nrounds of Bayesian optimization 
+- Set up scripts and run on Sherlock or SCG
+- Set up bootstrapping
 - Figure out how to create partial dependence plots 
 - Figure out: what is the difference between marginal effects and partial dependence?
 - Figure out: is "out of sample" prediction error the same as test error? (i.e., from when applying model from training data to test data)
