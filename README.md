@@ -15,10 +15,11 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 
 - One-hot encoding now working
 - Bayesian optimizaiton now working 
-- Log transformed really skewed variables to reduce influence of extreme outliers on model performance? 
+- Log transformed really skewed variables to reduce influence of extreme outliers on model performance
 
 ## Next to do ##
 
+- change model to classificaiton rather than regression (change meteric from reg:squarederror to) to predict species presence/absense
 - Increase nrounds of Bayesian optimization (now using cleaned data sets saved in DogHeartworm > Q2_SpeciesDatasets_WithAllPredictors
 - Set up scripts and run on Sherlock or SCG
 - Set up bootstrapping
