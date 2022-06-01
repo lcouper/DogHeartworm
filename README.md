@@ -13,13 +13,17 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 
 ## Just done ##
 
-- got script mostly working on SCG
+- got script working on SCG
 
-## Next to do ##
+## Working on ##
 
-- how to calculate confidence bands for partial dependence plots? (for within bootstrapping)
+- setting up boostrapping to calculate: CIs for gain values for each predictor & partial dependencies
+- only doing for Aedes sierrensis presence/absence for now
+
+## Next to do ## 
+
 - Increase nrounds of Bayesian optimization & run on sherlock
-- Set up bootstrapping
+
 
 
 
