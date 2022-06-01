@@ -24,6 +24,7 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 
 - Increase nrounds of Bayesian optimization & run on sherlock
 - set up bootstrapoing to get values for pdp plots (can get pdp for single model)
+- *For Q1* NEED TO CONVERT DOG POUPLATION SIZES INTO DENSITY (use DogHeartworm_CountyPopSizes_2009_2021 datasheet)
 
 
 
