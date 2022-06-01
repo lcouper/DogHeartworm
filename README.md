@@ -13,21 +13,14 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 
 ## Just done ##
 
-- One-hot encoding now working
-- Bayesian optimizaiton now working 
-- Log transformed really skewed variables to reduce influence of extreme outliers on model performance
-- Changed model to classificaiton rather than regression (change meteric from reg:squarederror to) to predict species presence/absense
-- installed necessary packages on my SCG home account
+- got script mostly working on SCG
 
 ## Next to do ##
 
-- working on SCG script (DogRjob.R and DogTest.sbatch). Complete this R script and submit!
--  
-- Increase nrounds of Bayesian optimization (now using cleaned data sets saved in DogHeartworm > Q2_SpeciesDatasets_WithAllPredictors
+- how to calculate confidence bands for partial dependence plots? (for within bootstrapping)
+- Increase nrounds of Bayesian optimization & run on sherlock
 - Set up bootstrapping
-- Figure out how to create partial dependence plots 
-- Figure out: what is the difference between marginal effects and partial dependence?
-- Figure out: is "out of sample" prediction error the same as test error? (i.e., from when applying model from training data to test data)
+
 
 
 
