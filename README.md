@@ -16,12 +16,14 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 - One-hot encoding now working
 - Bayesian optimizaiton now working 
 - Log transformed really skewed variables to reduce influence of extreme outliers on model performance
+- Changed model to classificaiton rather than regression (change meteric from reg:squarederror to) to predict species presence/absense
+- installed necessary packages on my SCG home account
 
 ## Next to do ##
 
-- change model to classificaiton rather than regression (change meteric from reg:squarederror to) to predict species presence/absense
+- working on SCG script (DogRjob.R and DogTest.sbatch). Complete this R script and submit!
+-  
 - Increase nrounds of Bayesian optimization (now using cleaned data sets saved in DogHeartworm > Q2_SpeciesDatasets_WithAllPredictors
-- Set up scripts and run on Sherlock or SCG
 - Set up bootstrapping
 - Figure out how to create partial dependence plots 
 - Figure out: what is the difference between marginal effects and partial dependence?
