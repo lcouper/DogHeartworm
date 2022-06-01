@@ -23,6 +23,7 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 ## Next to do ## 
 
 - Increase nrounds of Bayesian optimization & run on sherlock
+- set up bootstrapoing to get values for pdp plots (can get pdp for single model)
 
 
 
