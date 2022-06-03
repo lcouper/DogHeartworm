@@ -25,3 +25,7 @@ Purpose: Use NLCD to calculate relevant land cover variables (e.g., prop forest 
 ## 6. Clean data prior to GBM analysis for Q2
 File name: DogHeartworm_Q2analysis_DataPreprocessing.R <br/>
 Purpose: Merge surveillance data with climate and land cover data. Remove rows from rare counties/ trap types. Transform skewed variables
+
+## 7. Merge predictor data prior to GBM analysis for Q1
+File name: DogHeartworm_Q1analysis_DataPreprocessing.R
+Purpose: Merge data on individual predictors (i.e., HDUs, median income, dog density estimates). One-year lag relevant variables
