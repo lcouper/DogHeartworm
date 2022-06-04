@@ -13,18 +13,19 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 
 ## Just done ##
 
-- got script working on SCG
+- Increased nrounds of Bayesian optimization & run on sherlock
+- set up bootstrapoing to get values for pdp plots (can get pdp for single model)
+- converted dog pop sizes to density (DogHeartworm_CountyPopSizes_2009_2021 datasheet)
 
 ## Working on ##
 
-- setting up boostrapping to calculate: CIs for gain values for each predictor & partial dependencies
-- only doing for Aedes sierrensis presence/absence for now
+- running SGC scripts for Aedes aegypti currently (finiding hyper parameters, boostrapping for CIs for variable importance & pdps)
 
 ## Next to do ## 
 
-- Increase nrounds of Bayesian optimization & run on sherlock
-- set up bootstrapoing to get values for pdp plots (can get pdp for single model)
-- *For Q1* NEED TO CONVERT DOG POUPLATION SIZES INTO DENSITY (use DogHeartworm_CountyPopSizes_2009_2021 datasheet)
+- ADD a Q3 CLIMATE CHANGE ANGLE: panel models of dog heartworm test positivity ~ HDU for each CA bioregion!!
+
+
 
 
 
