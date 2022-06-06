@@ -16,10 +16,11 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 - Increased nrounds of Bayesian optimization & run on sherlock
 - set up bootstrapoing to get values for pdp plots (can get pdp for single model)
 - converted dog pop sizes to density (DogHeartworm_CountyPopSizes_2009_2021 datasheet)
+- ran pipeline for Ae aegypti
 
 ## Working on ##
 
-- running SGC scripts for Aedes aegypti currently (finiding hyper parameters, boostrapping for CIs for variable importance & pdps)
+- running scripts for Ae. albopictus (starting with model fitting/ finding hyperparameters)
 
 ## Next to do ## 
 
