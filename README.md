@@ -22,9 +22,11 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 
 - running scripts for Ae. albopictus (starting with model fitting/ finding hyperparameters)
 
-## Next to do ## 
+## Scripts workflow ##
 
-- ADD a Q3 CLIMATE CHANGE ANGLE: panel models of dog heartworm test positivity ~ HDU for each CA bioregion!!
+- hyperparameter tuning (identify optimal hyperparams)
+- boostrap 100 iteractions (calculate AUC, gain)
+- plot AUC, gain for top 10 features
 
 
 
