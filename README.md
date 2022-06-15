@@ -20,7 +20,7 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 
 ## Next to do ##
 
-- q1: pdps for each species
+- q1: pdps (within the boostrapping run) for each species 
 - q2: run scripts for Ae. albopictus (starting with model fitting/ finding hyperparameters)
 
 ## Scripts workflow ##
