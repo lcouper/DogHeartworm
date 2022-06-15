@@ -18,9 +18,10 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 - converted dog pop sizes to density (DogHeartworm_CountyPopSizes_2009_2021 datasheet)
 - ran pipeline for Ae aegypti
 
-## Working on ##
+## Next to do ##
 
-- running scripts for Ae. albopictus (starting with model fitting/ finding hyperparameters)
+- q1: pdps for each species
+- q2: run scripts for Ae. albopictus (starting with model fitting/ finding hyperparameters)
 
 ## Scripts workflow ##
 
