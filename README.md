@@ -25,7 +25,7 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 
 ## Scripts workflow ##
 
-- hyperparameter tuning (identify optimal hyperparams)
+- hyperparameter tuning (identify optimal hyperparams). Script = DogR_Hyperparams_[Aevexans].R, run with Dog_Hyperparams_[Aevexans].sbatch
 - boostrap 100 iteractions (calculate AUC, gain)
 - plot AUC, gain for top 10 features
 
