@@ -9,7 +9,8 @@ Methods workflow: https://docs.google.com/document/d/1BogzO9ykmIimr-thRqLZEKozIp
 
 ## Currently working on ##
 
-Q2: GBM identifying which climate / land cover predictors are important for each species
+Re-running Q2 after having removed collinear ecological predictors
+
 
 ## Just done ##
 
@@ -18,13 +19,9 @@ Q2: GBM identifying which climate / land cover predictors are important for each
 - converted dog pop sizes to density (DogHeartworm_CountyPopSizes_2009_2021 datasheet)
 - ran pipeline for Ae aegypti
 
-## Next to do ##
-
-- q1: pdps (within the boostrapping run) for each species 
-- q2: run scripts for Ae. albopictus (starting with model fitting/ finding hyperparameters)
-
 ## Scripts workflow ##
 
+- terminal: ssh lcouper@login.scg.stanford.edu 
 - hyperparameter tuning (identify optimal hyperparams). Script = DogR_Hyperparams_[Aevexans].R, run with Dog_Hyperparams_[Aevexans].sbatch
 - boostrap 100 iteractions (calculate AUC, gain)
 - plot AUC, gain for top 10 features
