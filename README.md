@@ -10,7 +10,7 @@ Methods workflow: https://docs.google.com/document/d/1BogzO9ykmIimr-thRqLZEKozIp
 ## Currently working on ##
 
 Re-running Q2 after having removed collinear ecological predictors.
-Have rerun hyperparams for: Ae albopictus, Ae sierrensis
+Have rerun hyperparams for: Ae albopictus, Ae sierrensis, Ae aegypti
 
 
 ## Just done ##
