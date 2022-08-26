@@ -11,7 +11,7 @@ Methods workflow: https://docs.google.com/document/d/1BogzO9ykmIimr-thRqLZEKozIp
 
 Re-running Q2 after having removed collinear ecological predictors.
 Just finished rerunning hyperparameters. Next to do = re-boot strap using these hyperparams and fewer predictors
-
+Finished doing bootstrap & model metrics for Ae aegypti, now doing Ae albopictus
 
 ## Just done ##
 
