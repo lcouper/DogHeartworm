@@ -9,9 +9,9 @@ Methods workflow: https://docs.google.com/document/d/1BogzO9ykmIimr-thRqLZEKozIp
 
 ## Currently working on ##
 
-Re-running Q2 after having removed collinear ecological predictors.
-Just finished rerunning hyperparameters. Next to do = re-boot strap using these hyperparams and fewer predictors
-Finished doing bootstrap & model metrics for Ae aegypti, now doing Ae albopictus
+Re-running Q2 after having removed collinear ecological predictors & adjusting scale_pos_weight to address unbalanced classes
+Finished re-doing Ae aegypti, now doing Ae albopictus & Ae vexans
+- don't need to redo for Cx. tarsalis or Cx. quinque!
 
 ## Just done ##
 
