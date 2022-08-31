@@ -9,16 +9,7 @@ Methods workflow: https://docs.google.com/document/d/1BogzO9ykmIimr-thRqLZEKozIp
 
 ## Currently working on ##
 
-Re-running Q2 after having removed collinear ecological predictors & adjusting scale_pos_weight to address unbalanced classes
-Finished re-doing Ae aegypti, now doing Ae albopictus & Ae sierrensis
-- don't need to redo for Cx. tarsalis or Cx. quinque!
-
-## Just done ##
-
-- Increased nrounds of Bayesian optimization & run on sherlock
-- set up bootstrapoing to get values for pdp plots (can get pdp for single model)
-- converted dog pop sizes to density (DogHeartworm_CountyPopSizes_2009_2021 datasheet)
-- ran pipeline for Ae aegypti
+- updating Q2 tables and figures after having removed collinear ecological predictors
 
 ## Scripts workflow ##
 
