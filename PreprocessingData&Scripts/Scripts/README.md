@@ -23,6 +23,7 @@ Usage: Identify the nearest climate data observation for each mosquito surveilla
 ## 5. Calculate relevant land cover variables
 File name: *DogHeartworm_LandCoverDataAnalysis.R* <br/>
 Usage: Use NLCD to calculate relevant land cover variables (e.g., prop forest within 100 m of surveillance point)
+Note: Files used in this script were too large to upload to github. They are readily available upon email request to lcouper@stanford.edu
 
 ## 6. Clean data prior to GBM analysis for Q2
 File name: *DogHeartworm_Q2analysis_DataPreprocessing.R* <br/>
