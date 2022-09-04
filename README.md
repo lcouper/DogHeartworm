@@ -1,6 +1,9 @@
-# Dog Heartworm Analysis Data and Scripts 
+# Dog Heartworm Project 
 
-give some intro here
+This repo contains all of the data and code for the manuscript: Couper LI, Mordecai EA. 2022. Ecological drivers of dog heartworm transmission in California
+
+Corresponding author: Lisa Couper (lcouper@stanford.edu)
+
 
 
 
