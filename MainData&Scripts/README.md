@@ -21,6 +21,7 @@ Note: this code was run on the Stanford cluster. If running on a personal comput
 ### Data ###
 File name: *Q2_AllSpeciesPresAbs_AllPredictors.csv*  
 Usage: Data used to model mosquito species presence with climate and land cover predictors
+Note: The actual file is too large to upload to github. Here I have uploaded a dataset containing a random sample of 1000 rows from the original dataset. The full file used in analysis is readily available upon email request to: lcouper@stanford.edu
 
 ### Scripts ###
 
