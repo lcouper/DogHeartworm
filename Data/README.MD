@@ -15,16 +15,17 @@ File name: *DogHeartwormAnalysis_Part1.R*
 Usage: Script used to model dog heartworm cases with mosquito abundance as a predictor
 
 ## Part 2: Ecological drivers of vector presence ##
-## Data used in Q2 too big to upload here. Upload to ?? 
+
+Note: this code was run on the Stanford cluster. If running on a personal computer, will need to lower the number of rounds &/or bootstrap iterations
+
+### Data ###
+File name: *Q2_AllSpeciesPresAbs_AllPredictors.csv*  
+Usage: Data used to model mosquito species presence with climate and land cover predictors
+
+### Scripts ###
+
+File name: *DogHeartwormAnalysis_Part2.R*  
+Usage: Script used to model mosquito species presence with climate and land cover predictors
 
  
-File name:  
-Scripts used:  
- 
-## 2. 
-File name:  
-Scripts used:
 
-## 3. 
-File name:  
-Scripts used:
