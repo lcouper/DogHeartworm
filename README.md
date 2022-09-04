@@ -1,22 +1,37 @@
-# Dog Heartworm
+# Dog Heartworm Analysis Data and Scripts 
 
-## Working Docs ##
+give some intro here
 
-Manuscript: https://docs.google.com/document/d/1mBBMrbIyOUMV21rdmh0MmGNLvhc1uEgw8Von9YLKAlc/edit     
-Background lit review: https://docs.google.com/document/d/1Zg_nIOlhlgXVmr2NUPHglen3gVPq5e9mMfqH90NS53c/edit   
-Methods notes: https://docs.google.com/document/d/1hY7sos5XK_RxLHgmWM97U1i8WC7OKNtP1CoghQdlnFE/edit   
-Methods workflow: https://docs.google.com/document/d/1BogzO9ykmIimr-thRqLZEKozIp5Ohv96KspCF5MFO3c/edit    
+## Part 1: Identifying key vector species ##
 
-## Currently working on ##
+### Data ###
+File name: *Q1analysis_AllPredictors_MosqAbundance.csv*  
+Usage: Data used to model dog heartworm cases with mosquito *abundance* as a predictor. Also includes dog density and income data
 
-- updating Q2 tables and figures after having removed collinear ecological predictors
+File name: *Q1analysis_AllPredictors_MosqPresence.csv*    
+Usage: Data used to model dog heartworm cases with mosquito *presence* as a predictor. Also includes dog density and income data
 
-## Scripts workflow ##
+### Scripts ###
 
-- terminal: ssh lcouper@login.scg.stanford.edu 
-- hyperparameter tuning (identify optimal hyperparams). Script = DogR_Hyperparams_[Aevexans].R, run with Dog_Hyperparams_[Aevexans].sbatch
-- boostrap 100 iteractions (calculate AUC, gain)
-- plot AUC, gain for top 10 features
+File name: *DogHeartwormAnalysis_Part1.R*  
+Usage: Script used to model dog heartworm cases with mosquito abundance as a predictor
+
+## Part 2: Ecological drivers of vector presence ##
+
+Note: this code was run on the Stanford cluster. If running on a personal computer, will need to lower the number of rounds &/or bootstrap iterations
+
+### Data ###
+File name: *Q2_AllSpeciesPresAbs_AllPredictors.csv*  
+Usage: Data used to model mosquito species presence with climate and land cover predictors
+
+### Scripts ###
+
+File name: *DogHeartwormAnalysis_Part2.R*  
+Usage: Script used to model mosquito species presence with climate and land cover predictors
+
+ 
+
+
 
 
 
