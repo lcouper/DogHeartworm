@@ -7,8 +7,9 @@ Note: Files used in this script were too large to upload to github. They are rea
 
 ## 2. Calculate relevant climate variables
 File name: *DogHeartworm_CalculateClimateVariables.R* <br/>
-Usage: Calculates climate variables (e.g., daily/weekly/monthly/quarterly mean, max, min, diurnal ranges for temp and precip).   
-Using modeled climate data from NOAA
+Usage: Creates functions to calculate climate variables (e.g., daily/weekly/monthly/quarterly mean, max, min, diurnal ranges for temp and precip).   
+Then uses modeled climate data from NOAA to calculate these variables for each weather station
+Note: Files used at bottom of script were too large to upload to github. They are readily available upon email request to lcouper@stanford.edu
 
 ## 3. Surveillance data cleaning and abundance calculations
 File name: *DogHeartworm_MosquitoSpecies.R*  <br/>
