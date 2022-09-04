@@ -2,7 +2,8 @@
 
 ## 1. Model climate data 
 File name: *DogHeartworm_ModeledClimateData.R* <br/>
-Usage: Write functions to pull in NOAA climate data files and output Tmax, Tmin in Celsius and precip data for relevant CA lat /longs 
+Usage: Write functions to pull in NOAA climate data files and output Tmax, Tmin in Celsius and precip data for relevant CA lat /longs <br/>
+Note: Files used in this script were too large to upload to github. They are readily available upon email request to lcouper@stanford.edu
 
 ## 2. Calculate relevant climate variables
 File name: *DogHeartworm_CalculateClimateVariables.R* <br/>
