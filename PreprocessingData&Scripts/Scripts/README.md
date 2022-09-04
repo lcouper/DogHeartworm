@@ -28,6 +28,7 @@ Note: Files used in this script were too large to upload to github. They are rea
 ## 6. Clean data prior to GBM analysis for Q2
 File name: *DogHeartworm_Q2analysis_DataPreprocessing.R* <br/>
 Usage: Merge surveillance data with climate and land cover data. Remove rows from rare counties/ trap types. Transform skewed variables
+Note: Files used in this script were too large to upload to github. They are readily available upon email request to lcouper@stanford.edu
 
 ## 7. Merge predictor data prior to GBM analysis for Q1
 File name: *DogHeartworm_Q1analysis_DataPreprocessing.R* <br/>
