@@ -25,14 +25,16 @@ DataA2$Lag_Cs.inornata[is.na(DataA2$Lag_Cs.inornata)] <- 0
 DataA2$Lag_Cx.tarsalis[is.na(DataA2$Lag_Cx.tarsalis)] <- 0
 DataA2$Lag_Cx.quinquefasciatus[is.na(DataA2$Lag_Cx.quinquefasciatus)] <- 0
 
-#### 2. Separate Northern & Southern CA bioregions #####
-# Separate Nor and SoCal
+#### 2. Separate Northern, Central, & Southern CA bioregions #####
 
 NorthBior = c("BayDelta", "Klamath", "Sierra", "SacramentoValley")
-SouthBior = c("CentralCoast", "SanJoaquinValley", "ColoradoDesert", "SouthCoast")
+DataCentral =  DataA2[DataA2$Bioregion %in% CentralBior, ]
+SouthBior = c("SouthCoast", "ColoradoDesert")
 
 DataNorth = DataA2[DataA2$Bioregion %in% NorthBior, ]
+DataCentral =  DataA2[DataA2$Bioregion %in% CentralBior, ]
 DataSouth = DataA2[DataA2$Bioregion %in% SouthBior, ]
+
 
 #### 3. Run panel mdoels for Northern and Southern CA ####
 # scale predictors so they are directly comparable
@@ -53,6 +55,14 @@ SoCalpm = lm(TotalPositive ~  scale(Lag_Ae.aegypti) + scale(Lag_Ae.albopictus) +
                factor(Year) + factor(Bioregion) - 1, data = DataSouth)
 summary(SoCalpm)
 
+# Full CentralCal Panel Model
+CentralCalpm = lm(TotalPositive ~  scale(Lag_Ae.aegypti) + scale(Lag_Ae.albopictus) + scale(Lag_Ae.sierrensis) +
+                scale(Lag_Ae.vexans) + scale(Lag_An.freeborni) + scale(Lag_Cs.incidencs) + scale(Lag_Cs.inornata) +
+                scale(Lag_Cx.quinquefasciatus) + scale(Lag_Cx.tarsalis) + 
+                scale(Lagged_DogDensity) + scale(Lagged_Income) 
+                factor(Year) + factor(Bioregion) - 1, data = DataCentral)
+summary(CentralCalpm)
+
 # NorCal fixed effects only
 NorCalpmFEonly = lm(TotalPositive ~   
                       factor(Year) + factor(Bioregion) - 1, data = DataNorth)
@@ -62,6 +72,11 @@ summary(NorCalpmFEonly)
 SoCalpmFEonly = lm(TotalPositive ~   
                       factor(Year) + factor(Bioregion) - 1, data = DataSouth)
 summary(SoCalpmFEonly)
+
+# CentralCal fixed effects only
+CentralCalpmFEonly = lm(TotalPositive ~   
+                      factor(Year) + factor(Bioregion) - 1, data = DataCentral)
+summary(CentralCalpmFEonly)
 
 # NorCal year fixed effect only
 NorCalpmYearonly = lm(TotalPositive ~   
@@ -73,6 +88,12 @@ SoCalpmYearonly = lm(TotalPositive ~
                         factor(Year) - 1, data = DataSouth)
 summary(SoCalpmYearonly)
 
+# CentralCal year fixed effect only
+CentralCalpmYearonly = lm(TotalPositive ~   
+                        factor(Year) - 1, data = DataCentral)
+summary(CentralCalpmYearonly)
+
+
 # NorCal bioregion fixed effect only
 NorCalpmBioronly = lm(TotalPositive ~   
                         factor(Bioregion) - 1, data = DataNorth)
@@ -82,5 +103,10 @@ summary(NorCalpmBioronly)
 SoCalpmBioronly = lm(TotalPositive ~   
                         factor(Bioregion) - 1, data = DataSouth)
 summary(SoCalpmBioronly)
+
+# CentralCal bioregion fixed effect only
+CentralCalpmBioronly = lm(TotalPositive ~   
+                        factor(Bioregion) - 1, data = DataCentral)
+summary(CentralCalpmBioronly)
 
 
